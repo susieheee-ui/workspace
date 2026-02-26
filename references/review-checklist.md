@@ -29,3 +29,8 @@ Use this checklist before final output.
 - Protocol/parameter/API/internal routing details are excluded unless they directly affect customer decisions.
 - For model/algorithm/engine/protocol updates, summary value is customer-actionable outcome (what users can do), not technical expansion wording.
 - For endpoint capability extension updates, output is concise: 1 summary sentence + 1-3 bullets.
+- For link-distribution/bulk-export updates, summary value uses concrete distribution actions (`直接分发/直接访问`), not abstract-only wording.
+- For API integration updates, title avoids internal wording (e.g., `补齐`) and uses customer-facing wording (`支持配置/支持新增`).
+- For API integration updates, summary uses API-scene phrasing and channel/platform bullets are merged when no visible difference exists.
+- For query API updates, summary includes query conditions + result object + concrete purpose.
+- For query API updates, bullets are concise and centered on `query conditions` and `return scope`.

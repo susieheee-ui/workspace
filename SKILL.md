@@ -88,6 +88,12 @@ After confirmation, output only:
 23. Prefer business-moment scenarios in summary (e.g., live session, demo flow, creation flow) over page-location phrasing.
 24. Keep single-feature boundary under one title; split bullets that introduce a different capability into a separate feature entry.
 25. For endpoint capability extension updates, prefer concise form: 1 summary sentence + 1-3 bullets.
+26. For link-distribution/bulk-export updates, summary value should use concrete distribution actions (e.g., direct distribution/direct access), not abstract outcomes.
+27. For API integration updates, use customer-facing titles (avoid internal wording like "补齐") and prefer "支持配置/支持新增".
+28. For API integration summaries, prefer "在 {{API场景}} 中新增/支持 {{能力}}" phrasing.
+29. Merge channel/platform bullets when capability is identical and has no user-visible difference.
+30. For query API updates, summary should use "按条件查询结果对象 + 用途" and avoid duplicated capability phrasing.
+31. For query API bullets, prefer concise two-part structure: query conditions + return scope.
 
 # Filtering Rules
 
