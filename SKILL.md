@@ -6,9 +6,10 @@ description: Convert internal requirement docs into concise customer-facing prod
 # Workflow
 
 1. Read [references/prompt-v4.md](references/prompt-v4.md) before drafting.
-2. Run Stage 1 first and output a diagnostic report.
-3. Pause after Stage 1 and wait for confirmation.
-4. Run Stage 2 and generate the final announcement with the required structure.
+2. Read [references/classification-matrix.md](references/classification-matrix.md) before classifying requirement type.
+3. Run Stage 1 first and output a diagnostic report.
+4. Pause after Stage 1 and wait for confirmation.
+5. Run Stage 2 and generate the final announcement with the required structure.
 
 # Stage 1 Output (Mandatory)
 
@@ -23,6 +24,12 @@ Include:
   - `核心流程优化`
   - `用户体验/功能细节优化`
   - `技术集成类优化`
+- `分类判定依据（必须引用矩阵）`:
+  - `核心差异`
+  - `A. 操作链路`
+  - `B. 用户决策`
+  - `C. 学习成本`
+  - `D. 功能普适性`
 - `要素提取`:
   - `模块`
   - `功能名称`
@@ -46,20 +53,23 @@ After confirmation, output only:
 
 # Writing Constraints
 
-1. Use zero-person narrative. Do not use:
+1. Fully understand requirement text before writing.
+2. Do not extend logic not present in requirement text.
+3. Do not omit explicit requirement logic.
+4. Use zero-person narrative. Do not use:
    - `我们`
    - `我`
    - `团队`
    - `您`
    - `你`
-2. Prioritize in this order:
+5. Prioritize in this order:
    - Functional changes
    - Entry changes
    - Default behavior changes
    - Constraints/availability
-3. Keep summary to 1-2 sentences.
-4. Keep feature bullets to 4-6 items when feature details are needed.
-5. Write bullets as system behavior, not value claims.
+6. Keep summary to 1-2 sentences.
+7. Keep feature bullets to 4-6 items when feature details are needed.
+8. Write bullets as system behavior, not value claims.
 
 # Filtering Rules
 
@@ -78,4 +88,4 @@ Remove:
 - Examples used only for explanation
 - Technical implementation details
 
-For detailed rules and full templates, follow [references/prompt-v4.md](references/prompt-v4.md).
+For detailed rules and full templates, follow [references/prompt-v4.md](references/prompt-v4.md) and [references/classification-matrix.md](references/classification-matrix.md).

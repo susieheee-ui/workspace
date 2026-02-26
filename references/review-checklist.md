@@ -3,6 +3,9 @@
 Use this checklist before final output.
 
 - Output follows two-stage flow: diagnostic first, then final after confirmation.
+- Requirement text is fully covered with no missing explicit logic.
+- No extra logic is introduced beyond requirement text.
+- Requirement type is judged using `classification-matrix.md` with evidence for core difference + A/B/C/D.
 - No forbidden pronouns: `我们 / 我 / 团队 / 您 / 你`.
 - Content keeps only customer-visible changes.
 - Internal implementation, formulas, and acceptance logic are removed.
