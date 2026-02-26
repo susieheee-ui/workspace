@@ -68,8 +68,26 @@ After confirmation, output only:
    - Default behavior changes
    - Constraints/availability
 6. Keep summary to 1-2 sentences.
-7. Keep feature bullets to 4-6 items when feature details are needed.
-8. Write bullets as system behavior, not value claims.
+7. Set feature bullet count by customer cognitive units, not requirement sub-items.
+8. Prefer 3-4 bullets, maximum 6.
+9. Merge bullets when they describe the same capability.
+10. Prefer this structure when applicable: entry -> core capability -> data source/constraints.
+11. Write bullets as system behavior, not value claims.
+12. Write `【功能概述】` with required formula:
+   - `在【业务场景】中，新增/支持【功能能力】，支持【可执行行为】，用于【具体业务用途】。`
+13. Include only verifiable value in summary purpose (`用于...`), not abstract value words.
+14. Use customer announcement language, not requirement/test wording.
+15. Avoid step-by-step test flow phrasing in bullets; summarize as customer-visible capability.
+16. Keep bullet sentence pattern consistent, prefer `新增/支持/默认/可查看` starters.
+17. Do not expose internal system structure in announcement wording; rewrite to user-visible capability.
+18. Avoid fine-grained UI position wording unless position change is the core change.
+19. For new model/capability updates, prioritize bullets by: availability -> usage -> limits -> impact on existing behavior.
+20. Exclude protocol/parameter/API/internal routing details unless they affect customer decisions.
+21. For model/algorithm/engine/protocol updates, summary value must describe what customers can do, not technical capability expansion.
+22. Avoid duplicated summary capability phrasing (e.g., "新增能力 + 支持同一能力"); keep one clear capability statement.
+23. Prefer business-moment scenarios in summary (e.g., live session, demo flow, creation flow) over page-location phrasing.
+24. Keep single-feature boundary under one title; split bullets that introduce a different capability into a separate feature entry.
+25. For endpoint capability extension updates, prefer concise form: 1 summary sentence + 1-3 bullets.
 
 # Filtering Rules
 
