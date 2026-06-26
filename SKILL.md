@@ -7,9 +7,17 @@ description: Convert internal requirement docs into concise customer-facing prod
 
 1. Read [references/prompt-v4.md](references/prompt-v4.md) before drafting.
 2. Read [references/classification-matrix.md](references/classification-matrix.md) before classifying requirement type.
-3. Run Stage 1 first and output a diagnostic report.
-4. Pause after Stage 1 and wait for confirmation.
-5. Run Stage 2 and generate the final announcement with the required structure and promotion recommendation.
+3. Use the style references when drafting or reviewing customer-facing copy. They constrain wording, punctuation, terminology, naming, data format, and expression style only; do not use them to change requirement classification, customer-visible scope, or promotion-channel judgment. Load the relevant reference files or sections as needed:
+   - [references/punctuation.md](references/punctuation.md)
+   - [references/standard-terminology.md](references/standard-terminology.md)
+   - [references/scenario-strategy.md](references/scenario-strategy.md)
+   - [references/naming-strategy.md](references/naming-strategy.md)
+   - [references/data-format.md](references/data-format.md)
+   - [references/expression-style.md](references/expression-style.md)
+4. Use page/UI naming from the source material as the authority. If page naming conflicts with the reference documents, keep the page/UI naming.
+5. Run Stage 1 first and output a diagnostic report.
+6. Pause after Stage 1 and wait for confirmation.
+7. Run Stage 2 and generate the final announcement with the required structure and promotion recommendation.
 
 # Stage 1 Output (Mandatory)
 
